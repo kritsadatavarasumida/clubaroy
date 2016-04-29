@@ -1,0 +1,191 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'gradle' ]
+2 info using npm@2.15.0
+3 info using node@v4.4.2
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'gradle', null ]
+7 verbose cache add spec gradle
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'gradle',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'gradle',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed gradle@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for gradle
+11 info addNameTag [ 'gradle', 'latest' ]
+12 silly mapToRegistry name gradle
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'gradle',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'gradle',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/gradle
+17 verbose addNameTag registry:https://registry.npmjs.org/gradle not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/gradle
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 10:50:42 AM
+21 verbose request id b2aa195def1b6000
+22 http request GET https://registry.npmjs.org/gradle
+23 http 200 https://registry.npmjs.org/gradle
+24 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 verbose headers   etag: '"1MSMISNM3L0Q1A6WJ86HF0ORT"',
+24 verbose headers   'content-type': 'application/json',
+24 verbose headers   'content-encoding': 'gzip',
+24 verbose headers   'cache-control': 'max-age=300',
+24 verbose headers   'content-length': '1043',
+24 verbose headers   'accept-ranges': 'bytes',
+24 verbose headers   date: 'Fri, 29 Apr 2016 03:50:51 GMT',
+24 verbose headers   via: '1.1 varnish',
+24 verbose headers   age: '0',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'x-served-by': 'cache-sin6922-SIN',
+24 verbose headers   'x-cache': 'MISS',
+24 verbose headers   'x-cache-hits': '0',
+24 verbose headers   'x-timer': 'S1461901850.444178,VS0,VE870',
+24 verbose headers   vary: 'Accept-Encoding' }
+25 silly get cb [ 200,
+25 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 silly get     etag: '"1MSMISNM3L0Q1A6WJ86HF0ORT"',
+25 silly get     'content-type': 'application/json',
+25 silly get     'content-encoding': 'gzip',
+25 silly get     'cache-control': 'max-age=300',
+25 silly get     'content-length': '1043',
+25 silly get     'accept-ranges': 'bytes',
+25 silly get     date: 'Fri, 29 Apr 2016 03:50:51 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     age: '0',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-sin6922-SIN',
+25 silly get     'x-cache': 'MISS',
+25 silly get     'x-cache-hits': '0',
+25 silly get     'x-timer': 'S1461901850.444178,VS0,VE870',
+25 silly get     vary: 'Accept-Encoding' } ]
+26 verbose get saving gradle to /Users/doi/.npm/registry.npmjs.org/gradle/.cache.json
+27 verbose correctMkdir /Users/doi/.npm correctMkdir not in flight; initializing
+28 silly addNameTag next cb for gradle with tag latest
+29 silly addNamed gradle@0.1.0
+30 verbose addNamed "0.1.0" is a plain semver version for gradle
+31 silly mapToRegistry name gradle
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry data Result {
+34 silly mapToRegistry   raw: 'gradle',
+34 silly mapToRegistry   scope: null,
+34 silly mapToRegistry   name: 'gradle',
+34 silly mapToRegistry   rawSpec: '',
+34 silly mapToRegistry   spec: 'latest',
+34 silly mapToRegistry   type: 'tag' }
+35 silly mapToRegistry uri https://registry.npmjs.org/gradle
+36 verbose addRemoteTarball https://registry.npmjs.org/gradle/-/gradle-0.1.0.tgz not in flight; adding
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/gradle/-/gradle-0.1.0.tgz',
+37 verbose addRemoteTarball   '6868b901004776f615a4258cd3436616549e7aa7' ]
+38 info retry fetch attempt 1 at 10:50:51 AM
+39 info attempt registry request try #1 at 10:50:51 AM
+40 http fetch GET https://registry.npmjs.org/gradle/-/gradle-0.1.0.tgz
+41 http fetch 200 https://registry.npmjs.org/gradle/-/gradle-0.1.0.tgz
+42 silly fetchAndShaCheck shasum 6868b901004776f615a4258cd3436616549e7aa7
+43 verbose addTmpTarball /var/folders/lg/qzgw4dm117vgq5hw4pwm7wvh0000gn/T/npm-91483-9589509b/registry.npmjs.org/gradle/-/gradle-0.1.0.tgz not in flight; adding
+44 verbose addTmpTarball already have metadata; skipping unpack for gradle@0.1.0
+45 verbose correctMkdir /Users/doi/.npm correctMkdir not in flight; initializing
+46 silly cache afterAdd gradle@0.1.0
+47 verbose afterAdd /Users/doi/.npm/gradle/0.1.0/package/package.json not in flight; writing
+48 verbose correctMkdir /Users/doi/.npm correctMkdir not in flight; initializing
+49 verbose afterAdd /Users/doi/.npm/gradle/0.1.0/package/package.json written
+50 silly install resolved [ { name: 'gradle',
+50 silly install resolved     version: '0.1.0',
+50 silly install resolved     description: 'gradle',
+50 silly install resolved     keywords: [ 'gradle' ],
+50 silly install resolved     bin: { gradle: './bin/gradle' },
+50 silly install resolved     main: 'index.js',
+50 silly install resolved     repository: { type: 'git', url: 'git://github.com/xudafeng/gradle.git' },
+50 silly install resolved     dependencies: {},
+50 silly install resolved     devDependencies:
+50 silly install resolved      { 'co-mocha': '*',
+50 silly install resolved        mocha: '*',
+50 silly install resolved        should: '*',
+50 silly install resolved        jshint: '*',
+50 silly install resolved        istanbul: '*',
+50 silly install resolved        'pre-commit': '1.1.1' },
+50 silly install resolved     scripts: { test: 'make test', jshint: 'make jshint' },
+50 silly install resolved     'pre-commit': [ 'jshint' ],
+50 silly install resolved     homepage: 'https://github.com/xudafeng/gradle',
+50 silly install resolved     author: { name: 'xudafeng' },
+50 silly install resolved     email: 'xudafeng@126.com',
+50 silly install resolved     blog: 'http://xdf.me',
+50 silly install resolved     license: 'MIT',
+50 silly install resolved     bugs: { url: 'https://github.com/xudafeng/gradle/issues' },
+50 silly install resolved     _id: 'gradle@0.1.0',
+50 silly install resolved     _shasum: '6868b901004776f615a4258cd3436616549e7aa7',
+50 silly install resolved     _from: 'gradle@latest',
+50 silly install resolved     _npmVersion: '2.14.7',
+50 silly install resolved     _nodeVersion: '4.2.1',
+50 silly install resolved     _npmUser: { name: 'xudafeng', email: 'xudafeng@126.com' },
+50 silly install resolved     maintainers: [ [Object] ],
+50 silly install resolved     dist:
+50 silly install resolved      { shasum: '6868b901004776f615a4258cd3436616549e7aa7',
+50 silly install resolved        tarball: 'https://registry.npmjs.org/gradle/-/gradle-0.1.0.tgz' },
+50 silly install resolved     directories: {},
+50 silly install resolved     _resolved: 'https://registry.npmjs.org/gradle/-/gradle-0.1.0.tgz' } ]
+51 info install gradle@0.1.0 into /usr/local/lib
+52 info installOne gradle@0.1.0
+53 verbose installOne of gradle to /usr/local/lib not in flight; installing
+54 verbose correctMkdir /Users/doi/.npm/_locks correctMkdir not in flight; initializing
+55 verbose lock using /Users/doi/.npm/_locks/gradle-e31e225904dd3277.lock for /usr/local/lib/node_modules/gradle
+56 silly install write writing gradle 0.1.0 to /usr/local/lib/node_modules/gradle
+57 verbose unbuild lib/node_modules/gradle
+58 silly gentlyRm /usr/local/lib/node_modules/gradle is being purged from base /usr/local
+59 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/gradle
+60 verbose tar unpack /Users/doi/.npm/gradle/0.1.0/package.tgz
+61 verbose tar unpacking to /usr/local/lib/node_modules/gradle
+62 silly gentlyRm /usr/local/lib/node_modules/gradle is being purged
+63 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/gradle
+64 silly gunzTarPerm modes [ '755', '644' ]
+65 error tar.unpack untar error /Users/doi/.npm/gradle/0.1.0/package.tgz
+66 verbose unlock done using /Users/doi/.npm/_locks/gradle-e31e225904dd3277.lock for /usr/local/lib/node_modules/gradle
+67 verbose fstream_path /usr/local/lib/node_modules/gradle
+68 verbose fstream_type Directory
+69 verbose fstream_class DirWriter
+70 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/gradle'
+70 verbose stack     at Error (native)
+71 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+71 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+71 verbose fstream_stack FSReqWrap.oncomplete (fs.js:82:15)
+72 verbose cwd /Volumes/USB3/workspace/clubaroy
+73 error Darwin 15.4.0
+74 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "gradle"
+75 error node v4.4.2
+76 error npm  v2.15.0
+77 error path /usr/local/lib/node_modules/gradle
+78 error code EACCES
+79 error errno -13
+80 error syscall mkdir
+81 error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/gradle'
+81 error     at Error (native)
+81 error  { [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/gradle']
+81 error   errno: -13,
+81 error   code: 'EACCES',
+81 error   syscall: 'mkdir',
+81 error   path: '/usr/local/lib/node_modules/gradle',
+81 error   fstream_type: 'Directory',
+81 error   fstream_path: '/usr/local/lib/node_modules/gradle',
+81 error   fstream_class: 'DirWriter',
+81 error   fstream_stack:
+81 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+81 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+81 error      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+82 error Please try running this command again as root/Administrator.
+83 verbose exit [ -13, true ]
+84 verbose unbuild lib/node_modules/gradle
+85 silly gentlyRm /usr/local/lib/node_modules/gradle is being purged from base /usr/local
+86 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/gradle
