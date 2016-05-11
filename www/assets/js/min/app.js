@@ -2885,7 +2885,7 @@ if ("list" == page.name) {
                 // console.log(rating[i]);
             // console.log(decodeURI(tmpobj.data[i].title_th).replace(/\+/g,' '));
             (function (i) {
-                html+='<div class="card facebook-card">';
+                html+='<div class="card">';
                 html+='<div class="card-header">';
                 html+='<div class="facebook-name">'+readJSON(videoobj.data[i].title)+'</div>';
                 html+='</div>';
