@@ -2654,6 +2654,7 @@ if ("list" == page.name) {
             mainView.router.back();
         });
         var technicobj = "";
+        
         $.ajax({
             type: "POST",
             dataType: "html",

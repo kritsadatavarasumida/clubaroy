@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="77ec3b77-d5db-4077-8141-471b13b3a651" name="Clubaroy" url="http://27.254.77.63">
+        <fileTransfer host="27.254.77.63" port="21" rootFolder="/httpdocs/mobile" password="dfe0dfc8dfffdff0dff3dff0dffcdfc1dfdbdfce" username="clubaroycom">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
